@@ -1,5 +1,6 @@
 import ProfileForm from '@/components/forms/ProfileForm';
 import React from 'react';
+import ProfilePicture from './_components/ProfilePicture';
 
 const SettingsPage = () => {
   return (
@@ -14,6 +15,7 @@ const SettingsPage = () => {
             Add or update your information
           </p>
         </div>
+        <ProfilePicture />
         <ProfileForm />
       </div>
     </div>
